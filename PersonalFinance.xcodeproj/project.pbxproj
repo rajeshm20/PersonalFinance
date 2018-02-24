@@ -15,6 +15,7 @@
 		182FFAD9202F1B7A00E4AC1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182FFAD7202F1B7A00E4AC1C /* LaunchScreen.storyboard */; };
 		182FFAE4202F1B7B00E4AC1C /* PersonalFinanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FFAE3202F1B7B00E4AC1C /* PersonalFinanceTests.swift */; };
 		182FFAEF202F1B7C00E4AC1C /* PersonalFinanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FFAEE202F1B7C00E4AC1C /* PersonalFinanceUITests.swift */; };
+		187FA19F2030278C00E43B96 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187FA19E2030278C00E43B96 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		182FFAEA202F1B7C00E4AC1C /* PersonalFinanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalFinanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182FFAEE202F1B7C00E4AC1C /* PersonalFinanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalFinanceUITests.swift; sourceTree = "<group>"; };
 		182FFAF0202F1B7D00E4AC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187FA19E2030278C00E43B96 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				182FFACB202F1B7A00E4AC1C /* AppDelegate.swift */,
 				182FFACD202F1B7A00E4AC1C /* ViewController.swift */,
+				187FA19E2030278C00E43B96 /* AddViewController.swift */,
 				182FFACF202F1B7A00E4AC1C /* Main.storyboard */,
 				182FFAD5202F1B7A00E4AC1C /* Assets.xcassets */,
 				182FFAD7202F1B7A00E4AC1C /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				182FFAD4202F1B7A00E4AC1C /* PersonalFinance.xcdatamodeld in Sources */,
 				182FFACE202F1B7A00E4AC1C /* ViewController.swift in Sources */,
+				187FA19F2030278C00E43B96 /* AddViewController.swift in Sources */,
 				182FFACC202F1B7A00E4AC1C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +511,7 @@
 				182FFAF5202F1B7D00E4AC1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		182FFAF6202F1B7D00E4AC1C /* Build configuration list for PBXNativeTarget "PersonalFinanceTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				182FFAF8202F1B7D00E4AC1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		182FFAF9202F1B7D00E4AC1C /* Build configuration list for PBXNativeTarget "PersonalFinanceUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				182FFAFB202F1B7D00E4AC1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
